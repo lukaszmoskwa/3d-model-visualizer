@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>3D Model Visualizer</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="./css/style.css">
+	
+	</head>
+	<body>
+        <div id="my_navbar" class="text-center">
+        	<img src="./images/PoliLogo.png" alt="Poltecnico di Milano" id="poli">
+        	<a href="https://www.thecoding.cloud"  id="tcc">
+        		<img src="./images/TCCLogo.png">
+        	</a>
+        	<h1 id="title">3D Model visualizer</h1>
+        </div>
+        <div id="main_container">
+            <div id="main_left_container">
+                <div id="mesh_zone"></div>
+                 <div id="overDrop" style="background-repeat: no-repeat; background-image: url(./images/drophere.png); background-size: 100% auto ">
+                    <div id="dropZone"></div>
+                </div>
+                <div id="bottom_left_container">
+                	<div id="checkbox">
+                		<input type="checkbox" name="v" id="check_1" class="check">
+	            			<label for="check_1">V</label>
+	            		<input type="checkbox" name="f" id="check_4" class="check">
+	            			<label for="check_4">F</label>
+                	</div>
+            		<button id="progress_button"> Generate</button>
+            	</div>
+            </div>
+            <div id="main_right_container">
+                <canvas id="renderCanvas" touch-action="none"></canvas>
+            </div>
+        </div>
+	</body>
+    <script src="./js/babylon.js"></script>
+    <script src="./js/pep.js"></script>
+	<script type="text/javascript" src="./js/visualizer.js"></script>
+
+</html>
