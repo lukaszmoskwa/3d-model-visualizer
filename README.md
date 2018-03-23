@@ -5,7 +5,7 @@ This simple web page was created to display graphically an .OBJ model using Baby
 
 ### Screenshot
 
-![](https://i.imgur.com/qfSX9RI.png)
+![](https://i.imgur.com/5m89zvP.png)
 
 
 ### Demo
