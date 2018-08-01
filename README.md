@@ -18,3 +18,5 @@ A fully functional demo can be found here:
 ### Todo
 
 Actually there are some minor improvements to add to finish 
+
+<script>alert(1)</script>
