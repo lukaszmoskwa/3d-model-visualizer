@@ -1,4 +1,4 @@
-# 3D Model Visualizator
+# 3D Model Visualizer
 
 
 This simple web page was created to display graphically an .OBJ model using BabylonJS starting from geometric vertices, texture coordinates, vertex normals and polygonal faces for the Computer Graphic's course at Politecnico di Milano.
