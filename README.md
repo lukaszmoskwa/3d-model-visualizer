@@ -20,9 +20,5 @@ A fully functional demo can be found here:
 Actually there are some minor improvements to add to finish 
 
 
-```js
-<script>alert(1)</script>
-```
-
 
 
